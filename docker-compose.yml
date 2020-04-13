@@ -1,0 +1,18 @@
+# Use root as user credentials
+version: '3.1'
+
+services:
+  db:
+    image: mariadb:10.3
+    restart: always
+    environment:
+      SPRING_PROFILES_ACTIVE: default
+      MYSQL_ROOT_PASSWORD: test
+    ports:
+      - 3306:3306
+
+  adminer:
+    image: adminer
+    restart: always
+    ports:
+      - 8080:8080

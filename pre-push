@@ -1,0 +1,14 @@
+#!/bin/sh
+
+# spotless check
+./gradlew spotlessJavaCheck --daemon
+RESULT=$?
+if [ $RESULT -gt 0 ]
+then
+  exit $RESULT
+fi
+
+# run build with tests
+./gradlew clean build
+RESULT=$?
+exit $RESULT
