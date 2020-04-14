@@ -1,6 +1,6 @@
 [![license](https://img.shields.io/github/license/mashape/apistatus.svg?maxAge=2592000)](https://github.com/alexgaas/test-containers-blueprints/master/LICENSE)
 
-# test-containers-blueprints
+# Testcontainers blueprints
 
 Thats full example of [test-containers](https://www.testcontainers.org/) usage.
 
@@ -26,5 +26,4 @@ Integration tests placed in [test](https://github.com/alexgaas/test-containers-b
 
 ### License
 
-Licensed under the [MIT License](https://github.com/alexgaas/test-containers-blueprints
-/blob/master/README.md).
+Licensed under the [MIT License](https://github.com/alexgaas/test-containers-blueprints/blob/master/README.md).
