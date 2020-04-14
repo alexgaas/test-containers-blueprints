@@ -1,6 +1,6 @@
 # test-containers-blueprints
 
-Thats example of [test-containers](https://www.testcontainers.org/)  
+Thats full example of [test-containers](https://www.testcontainers.org/) usage
 
 ### License
 
