@@ -12,7 +12,17 @@ Example includes:
 - Simple onion archetecture (controller/service/repository/model) and DDD support by model
 - Basic Webflux support
 - Basic `flyway` support for example db script migration
-- Unit and integration tests with flayway and MySQL container 
+- Unit and integration tests with flayway and MySQL testcontainers container 
+- Docker compose file to start Spring Boot Application with instance of MySQL
+
+## Build / Deploy
+
+- start MySQL simply use `docker-compose` file (sure [Docker for Mac tools](https://docs.docker.com/docker-for-mac/install/) must be installed before) as `docker-compose up`
+If you getting any trouble you can use `docker-compose down -v` to clean up previews docker images
+- start `test-containers-blueprints` with **gradle**
+
+## testcontainers integration tests
+Integration tests placed in [test](https://github.com/alexgaas/test-containers-blueprints/tree/master/src/test/java/integration). 
 
 ### License
 
