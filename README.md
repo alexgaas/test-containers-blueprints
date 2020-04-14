@@ -17,7 +17,7 @@ Example includes:
 
 ## Build / Deploy
 
-- start MySQL simply use `docker-compose` file (sure [Docker for Mac tools](https://docs.docker.com/docker-for-mac/install/) must be installed before) as `docker-compose up`
+- start MySQL simply using `docker-compose` file (sure [Docker for Mac tools](https://docs.docker.com/docker-for-mac/install/) must be installed before) as `docker-compose up`
 If you getting any trouble you can use `docker-compose down -v` to clean up previews docker images
 - start `test-containers-blueprints` with **gradle**
 
